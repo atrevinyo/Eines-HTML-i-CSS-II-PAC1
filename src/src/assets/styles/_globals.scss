@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; //1rem = 10px
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  color: $laseu-seccio;
+  font-size: 1.6rem;
+  font-family: $font-family-sans-serif;
+  line-height: 1.8;
+  background-color: $laseu-blanc;
+}
+
+//Tot el contingut de la pàgina principal s'estrucra en una qudricula d'una columna
+.main-container {
+  display: grid;
+  grid-gap: 1.5rem;
+  justify-items: center;
+}
+
+//format dels enllaços
+a {
+  color: $laseu-blanc;
+  text-decoration: none;
+}
+
+img,
+picture {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+//Amplada de les seccions
+section {
+  width: 60%;
+
+  @include tablet {
+    width: 85%;
+  }
+}
+
+//Format dels h2
+h2 {
+  max-width: 100%;
+  margin-top: 1.5rem;
+  font-size: 4rem;
+  text-align: center;
+
+  @include tablet {
+    font-size: 3rem;
+  }
+}
+
+//Format dels h2
+h3 {
+  font-size: 2rem;
+  text-align: center;
+
+  @include tablet {
+    font-size: 1.5rem;
+  }
+
+}
