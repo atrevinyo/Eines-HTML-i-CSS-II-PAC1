@@ -26,21 +26,21 @@
   padding-top: 5%;
   color: $laseu-blanc;
   font-weight: 700;
-  font-size: 12rem;
+  font-size: 3rem;
   font-family: $font-family-serif;
   text-align: center;
   text-transform: uppercase;
 
   //Modifiquem la mida de la lletra en funció del dispositiu
-  @include desktop {
-    font-size: 10rem;
+  @include phone {
+    font-size: 4rem;
   }
 
   @include tablet {
     font-size: 6rem;
   }
 
-  @include phone {
-    font-size: 3rem;
+  @include desktop {
+    font-size: 12rem;
   }
 }

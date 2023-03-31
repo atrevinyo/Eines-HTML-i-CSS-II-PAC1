@@ -40,33 +40,41 @@ picture {
 
 //Amplada de les seccions
 section {
-  width: 70%;
 
-  @include tablet {
-    width: 90%;
+  width: 90%;
+
+  @include phone {
+    width: 80%;
   }
 
+  @include tablet {
+    width: 70%;
+  }
+
+  @include desktop {
+    width: 60%;
+  }
 }
 
 //Format dels h2
 h2 {
   max-width: 100%;
   margin-top: 1.5rem;
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
 
   @include tablet {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 }
 
 //Format dels h2
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
 
   @include tablet {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
 }

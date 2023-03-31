@@ -1,8 +1,13 @@
 //Format del text de les seccions
 .secction-text {
   margin: 2rem 2rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 1.5;
+
+  @include tablet {
+    font-size: 1.8rem;
+  }
+
 }
 
 //Format del contingut de la secció Història
