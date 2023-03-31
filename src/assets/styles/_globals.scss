@@ -40,11 +40,7 @@ picture {
 
 //Amplada de les seccions
 section {
-  width: 60%;
-
-  @include tablet {
-    width: 85%;
-  }
+  width: 70%;
 }
 
 //Format dels h2
