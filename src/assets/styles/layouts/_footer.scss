@@ -1,0 +1,19 @@
+
+
+.seuvella-footer {
+    padding: 40px 10px;
+    color: $laseu-blanc;
+    font-size: 1rem;
+    text-align: center;
+    background-color: $laseu-bg-ft;
+
+    p {
+        font-size: 1.2rem;
+
+        @include tablet {
+            font-size: 1rem;
+          }
+
+    }
+  }
+

@@ -1,0 +1,46 @@
+//Capçalera: La imatge de fons i el títol s'organitzen amb flex
+.header {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+//Imatge de fons de la capçalera
+.header-background {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+//Format aplicat al títol de la capçalera: LA SEU VELLA
+.header-main-title {
+  position: absolute;
+  width: 100%;
+  padding-top: 5%;
+  color: $laseu-blanc;
+  font-weight: 700;
+  font-size: 12rem;
+  font-family: $font-family-serif;
+  text-align: center;
+  text-transform: uppercase;
+
+  //Modifiquem la mida de la lletra en funció del dispositiu
+  @include desktop {
+    font-size: 10rem;
+  }
+
+  @include tablet {
+    font-size: 6rem;
+  }
+
+  @include phone {
+    font-size: 3rem;
+  }
+}

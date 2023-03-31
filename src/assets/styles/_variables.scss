@@ -1,0 +1,20 @@
+@use "sass:color";
+
+//Fonts
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$font-family-serif: "Georgia", "Times New Roman", serif;
+
+//Colors
+$laseu-seccio: rgb(138, 138, 138); //color gris
+$laseu-bg-ft: #433a44; //color del footer
+$laseu-negre: #0000; //color negre
+$laseu-blanc: #ffff; //color blanc
+$laseu-border: rgb(242, 242, 242);
+
+// Mida de Media Queries
+$mqMinWidthPhone: 480px;
+$mqMinWidthTablet: 768px;
+$mqMinWidthDesktop: 1024px;
+// $mqMinWidthDesktopXL: 1920px;
